@@ -1,0 +1,258 @@
+.header_nav {
+  
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  justify-content:center;
+  margin-top:10px;
+  border-bottom:1px solid gray;
+  min-width: 1000px;
+}
+.header_nav li {
+  margin-right: 30px;
+}
+/*あいさつ*/
+.hellow{
+  margin-right:30px;
+  
+}
+/* エラーメッセージ用のスタイル */
+.error {
+  color: red;
+  margin-top:10px;
+}
+/* 成功メッセージ用のスタイル */
+.success {
+  color: green;
+  margin-top:10px;
+}
+
+.img{
+  width:40px;
+}
+.logo{
+  width:200px;
+}
+
+/*input用*/
+.frame{
+  border:1px solid gray;
+}
+.search input{
+  border-radius:10px;
+  border:2px solid gray;
+}
+
+/*ログイン　サインイン*/
+.login{
+  min-width: 300px;
+  margin:100px 600px 100px 600px;
+  border:2px solid gray;
+ /* background-color:lime;*/
+ /* border:2px solid gray;*/
+  text-align:center;
+  padding:50px;
+}
+.login div{
+  margin-bottom:10px;
+}
+
+.register{
+  min-width: 400px;
+  margin:100px 550px 100px 550px;
+  border:2px solid gray;
+ /* background-color:brown;*/
+ /* border:2px solid gray;*/
+  text-align:center;
+  padding:50px;
+}
+.register div{
+  margin-bottom:30px;
+}
+
+
+
+
+
+.header{
+  height:40px;
+}
+.main{
+  /*background-color:lightblue;*/
+  /*margin-left: 400px;*/
+}
+.body{
+  min-width: 1200px;
+  
+}
+.content{
+  /*margin-left:42%;*/
+  min-height:550px;
+  margin-top:100px;
+}
+
+/*footer*/
+.footer{
+  height:40px;
+  
+  margin-top:50px;
+  padding-left: 0;
+  
+  
+  border-top:1px solid gray;
+}
+.footer ul{
+  display: flex;
+  justify-content:center;
+  padding:10px 0 10px 0;
+}
+.footer li{
+  list-style: none;
+  margin-right:30px;
+  
+}
+
+
+
+
+
+
+/*ホーム画面*/
+.container{
+  width:1200px;
+  min-width:1200px;
+}
+.container main div{
+  margin-bottom:50px;
+}
+.karusel{
+  width:1200px;
+  height:200px;
+}
+
+
+
+.index{
+  display:flex;
+  /*justify-content:space-between;*/
+}
+
+
+/*ホーム画面 左*/
+.index_left{
+  /*margin-left:200px;*/
+  background-color:lightblue;
+  width:250px;
+
+}
+.index_left h1{
+  /*margin-top:100px;*/
+}
+
+select{
+  width:150px;
+}
+
+
+/*ホーム画面 右*/
+.index_right{
+  margin-left:30px;
+  background-color:lime;
+  width:920px;
+}
+.wrap{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.unit{
+  border:1px solid green;
+  padding:20px;
+  margin:10px 0;
+  width:280px;
+}
+.unit div{
+  margin-bottom:20px;
+}
+
+.sold_out{/*売り切れ*/
+  color:red;
+  border:2px solid gray;
+  width:100px;
+  margin-top:20px;
+  padding:0 15px 0 15px; 
+}
+.listing{/*出品中*/
+  color:green;
+  border:2px solid gray;
+  width:100px;
+  margin-top:20px;
+  padding:0 20px 0 20px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*真ん中に寄せる　↓　共通*//*出品商品一覧*//*お気に入り画面*/
+.center{
+  margin-left: 600px;
+}
+.center h1{
+  margin-top:100px;
+}
+/*editとedit_imageとshowとconfigとfinishとcreage*/     
+.edit h1,.edit_image h1,.show h1{
+  margin-bottom:40px;
+}
+.edit p,.edit_image p,.show p{
+  font-weight:bold;
+  margin-bottom:0;
+}
+.edit div,.edit_image div,.show div{
+  margin-bottom:20px;
+}
+.edit label,.edit_image label,.show label{
+  font-weight:bold;
+}
+.edit_image_button{
+  margin-bottom:50px;
+  margin-top:30px;
+}
+
+
+/*商品詳細　購入確認　購入完了画面    items.show  items.config  items.finish*/
+/*新規出品　出品情報編集　出品画像編集  items.create  items.edit  items.edit_image*/
+/*
+.items_show p{
+  font-weight:bold;
+  margin-bottom:0;
+}
+.items_show div{
+  margin-bottom:20px;
+}
+.items_show label{
+  font-weight:bold;
+}
+*/
+
+
+
