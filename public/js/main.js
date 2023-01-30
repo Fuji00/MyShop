@@ -1,4 +1,5 @@
-$(function(){
+window.addEventListener('load',function(){
+
     var dialog=document.getElementById('dialog');
     var yes=document.getElementById('yes');
     var no=document.getElementById('no');
@@ -54,4 +55,4 @@ $(function(){
         $('.show').modaal('close'); // モーダルを閉じる
     })
     
-})
+});

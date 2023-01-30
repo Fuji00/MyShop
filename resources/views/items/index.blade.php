@@ -14,9 +14,9 @@
                 <li data-target="#cl" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active"><img src="{{asset('images/konngetu.png')}}" alt="画像" class="d-block w-100"></div>
-                <div class="carousel-item"><img src="{{asset('images/go.png')}}" alt="画像" class="d-block w-100"></div>
-                <div class="carousel-item"><img src="{{asset('images/kiroku.png')}}" alt="画像" class="d-block w-100"></div>
+                <div class="carousel-item active"><img src="{{asset('images/test1.png')}}" alt="画像" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="{{asset('images/test2.png')}}" alt="画像" class="d-block w-100"></div>
+                <div class="carousel-item"><img src="{{asset('images/test3.png')}}" alt="画像" class="d-block w-100"></div>
             </div>
             <a class="carousel-control-prev" href="#cl" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>

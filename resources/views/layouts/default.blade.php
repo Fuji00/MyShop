@@ -9,7 +9,7 @@
         <title>@yield('title')</title>
         <link rel="stylesheet" href="{{ asset('css/destyles.css') }}">
         <link rel="stylesheet" href="{{ asset('css/styles2.css') }}">
-        <link rel="stylesheet" type="text/css" href="css/modaal.css">
+        <!--link rel="stylesheet" type="text/css" href="css/modaal.css"-->
  
 
          <!--bootstrap4の読み込み-->
@@ -75,22 +75,15 @@
             </div>
         </footer>
         
-            
-        <!---Bootstrap読み込み--->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    
+        <!---多分ここから下がくさいBootstrap読み込み->
         
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
-  
-      
-        <script src="https://code.jquery.com/jquery-3.5.0.min.js"integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-        
-        <!-- Modaal js CDN -->
+        <!- Modaal js CDN ->
         <script src="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/js/modaal.js" integrity="sha256-e8kfivdhut3LQd71YXKqOdkWAG1JKiOs2hqYJTe0uTk=" crossorigin="anonymous"></script>
 
-        <!-- オリジナル -->
+        <!- オリジナル ->
         <script type="text/javascript" src="{{ asset('js/ajax.js') }}"></script>
 
-        <script src="{{ asset('js/main.js') }}"></script>
-
+        <script src="{{ asset('js/main.js') }}"></script-->
     </body>
 </html>
