@@ -149,48 +149,7 @@
     
     
   <script>
-    /* global $ */
-    /*
-                                                    {{---$items->appends(request()->input())->links()---}}
-{{---$items->links()---}}
-
-
-    $('.like_button').on('click', (event) => {
-        $(event.currentTarget).next().submit();
-    })
-    */
-    //asyncプロパティがtrueであれば非同期、falseであれば同期// ★を表示する処理// ☆を表示する処理
-    
-    
-    
-    /*
-    const ajaxtest=()=>{
-    
-    //console.log();
-    
-    //let $item=item;
-    
-    //console.log($item);
-    
-        $.ajax({
-            url: "/items",
-            type: 'POST',
-            async: true,     
-            dataType: 'json',
-            data:{
-                uid:100,
-            },
-        }).done(function(res) {
-            if (res.liked) {
-                
-            } else {
-             
-            }
-        });
-    
-    }
-    
-    */
+  
   </script>
 
 

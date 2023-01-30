@@ -8,23 +8,32 @@ window.addEventListener('load',function(){
     var delete_confirm=document.getElementById('delete_confirm');
 
     /*お知らせやエラー内容を表示する*/
-    dialog_flg.addEventListener('click',function(){
-        dialog.style.display='block';
-    })
+    if(dialog_flg){
+        dialog_flg.addEventListener('click',function(){
+            dialog.style.display='block';
+        })
+    }
+    
 
     /*削除するのかの確認*/
-    delete_confirm.addEventListener('click',function(){
-        delete_confirm.style.display="block";
-    })
-
-    yes.addEventListener('click',function(){
-        delete_confirm.style.display='none';
-
-    });
-    no.addEventListener('click',function(){
-        delete_confirm.style.display='none';
-
-    });
+    if(delete_confirm){
+        delete_confirm.addEventListener('click',function(){
+            delete_confirm.style.display="block";
+        })
+    }
+    
+    if(yes){
+        yes.addEventListener('click',function(){
+            delete_confirm.style.display='none';
+        });
+    }
+    
+    if(no){
+        no.addEventListener('click',function(){
+            delete_confirm.style.display='none';
+        });
+    }
+    
 
 
 
