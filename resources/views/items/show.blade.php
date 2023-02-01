@@ -15,9 +15,9 @@
         <div>
             @if($item->image !== '')
             <!--?php dd($item->image)?-->
-                <img src="{{asset('MyShop/myshop-test1/storage/'. $item->image)}}" class="img-size mb-3">
+                <img src="{{asset('storage/'. $item->image)}}" class="img-size mb-3">
             @else
-                <img src="{{asset('MyShop/myshop-test1/public/images/no_image.png')}}" class="mb-3">
+                <img src="{{asset('public/images/no_image.png')}}" class="mb-3">
             @endif
         </div>
         <div>
